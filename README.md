@@ -1,29 +1,21 @@
-Proje Başlığı:
-SQL Injection Açığına Sahip ve Güvenli Giriş Sistemi
+# Proje Adı
+Basit CrackMe Uygulamasının Tersine Mühendislik Analizi
 
-Proje Özeti:
-Bu projede PHP tabanlı bir web uygulaması geliştirilmiş ve yaygın olarak karşılaşılan SQL Injection güvenlik açığı incelenmiştir. Uygulama kapsamında iki farklı kullanıcı giriş sistemi tasarlanmıştır: biri bilinçli olarak SQL Injection'a açık bırakılmış, diğeri ise PDO ve Prepared Statements kullanılarak güvenli hale getirilmiştir.
+# Takım Üyeleri
+- Zeynep Rabia Alkoç – 2320191065
 
-Her iki sistem de incelenmiş, SQL Injection açığının nasıl sömürülebileceği ve nasıl önlenebileceği örneklerle açıklanmıştır. Geliştirilen sistemlerin kod yapıları ve farkları karşılaştırmalı olarak analiz edilmiştir. Proje sürecine dair ekran görüntüleri ve teknik açıklamalar PDF formatında hazırlanmış dokümantasyon ile birlikte sunulmuştur. Proje bireysel olarak gerçekleştirilmiştir.
+# Açıklama
+Basit bir C programı derlenip `.exe` formatına dönüştürülecek ve bu uygulama Ghidra ile statik analiz, x64dbg ile dinamik analiz kullanılarak incelenecektir. Program içerisinde yer alan şifre doğrulama mekanizması tersine mühendislik yöntemiyle çözülmeye çalışılacaktır. Şifrenin nasıl elde edildiği adım adım açıklanacak, analiz sürecine ait ekran görüntüleri ve teknik açıklamalar bir PDF dokümantasyon raporu ile sunulacaktır. Proje tek kişilik ekip ile yürütülmektedir.
 
-Geliştirici:
-Zeynep Rabia Alkoç – 2320191065
+# Hedefler
+- Derlenmiş bir uygulamanın nasıl analiz edileceğini öğrenmek  
+- Ghidra ve x64dbg gibi tersine mühendislik araçlarını aktif olarak kullanmak  
+- Uygulamadaki şifre doğrulama mantığını çözmek  
+- Tersine mühendislik sürecini belgelemek ve görsellerle desteklemek  
+- Tersine mühendisliğe giriş seviyesinde uygulamalı bir örnek sunmak  
 
-Kullanılan Teknolojiler ve Araçlar:
-
-PHP 8.x
-
-MySQL
-
-HTML/CSS
-
-PDO ve Prepared Statements
-
-Apache (XAMPP/WAMP)
-
-Bağlantılar:
-🔗 GitHub Repository: https://github.com/zeynepalkoc/php-sql-injection-logindemo
-
-🔐 Güvensiz Giriş Sayfası: /src/insecure/index.php
-✅ Güvenli Giriş Sayfası: /src/secure/index.php
-📄 Dokümantasyon ve araştırma dosyaları: PROMPTS.md, ROADMAP.md, researchs/ klasörü
+# Bağlantılar
+- 🔗 GitHub Repository: [https://github.com/kullaniciadi/proje-adi](#) *(bağlantıyı repo açınca güncelle)*
+- 📄 Dokümantasyon: `docs/CrackMe_Analiz_Raporu.pdf` *(PDF dosyasını bu klasöre koyabilirsin)*
+- 📸 Ekran Görüntüleri: `screenshots/` klasörü içerisinde
+- 💻 Derlenmiş Program: `build/CrackMe.exe`
