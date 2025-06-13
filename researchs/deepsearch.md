@@ -1,4 +1,4 @@
-# **Basit CrackMe Uygulamalarının Tersine Mühendislik Analizine Karşı Web Uygulamalarında Güvenlik Teknikleri (2025)**
+# **Basit CrackMe Uygulamalarının Tersine Mühendislik Analizine Karşı Web Uygulamalarında Güvenlik Teknikleri **
 
 ## **Yönetici Özeti**
 
