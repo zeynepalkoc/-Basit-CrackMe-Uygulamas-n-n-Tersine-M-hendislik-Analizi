@@ -1,21 +1,55 @@
-# Proje Adı
-Basit CrackMe Uygulamasının Tersine Mühendislik Analizi
+<div align="center">
 
-# Takım Üyeleri
-- Zeynep Rabia Alkoç – 2320191065
+<h1>CrackMe Reverse Engineering Analyzer</h1>
 
-# Açıklama
-Basit bir C programı derlenip `.exe` formatına dönüştürülecek ve bu uygulama Ghidra ile statik analiz, x64dbg ile dinamik analiz kullanılarak incelenecektir. Program içerisinde yer alan şifre doğrulama mekanizması tersine mühendislik yöntemiyle çözülmeye çalışılacaktır. Şifrenin nasıl elde edildiği adım adım açıklanacak, analiz sürecine ait ekran görüntüleri ve teknik açıklamalar bir PDF dokümantasyon raporu ile sunulacaktır. Proje tek kişilik ekip ile yürütülmektedir.
+<p><strong>final projesi- Tersine Mühendislik Uygulaması</strong></p>
 
-# Hedefler
-- Derlenmiş bir uygulamanın nasıl analiz edileceğini öğrenmek  
-- Ghidra ve x64dbg gibi tersine mühendislik araçlarını aktif olarak kullanmak  
-- Uygulamadaki şifre doğrulama mantığını çözmek  
-- Tersine mühendislik sürecini belgelemek ve görsellerle desteklemek  
-- Tersine mühendisliğe giriş seviyesinde uygulamalı bir örnek sunmak  
+<p>Derlenmiş bir CrackMe uygulamasının Ghidra ve x64dbg kullanılarak statik ve dinamik analiz yöntemleriyle çözülmesi.</p>
 
-# Bağlantılar
-- 🔗 GitHub Repository: [https://github.com/kullaniciadi/proje-adi](#) *(bağlantıyı repo açınca güncelle)*
-- 📄 Dokümantasyon: `docs/CrackMe_Analiz_Raporu.pdf` *(PDF dosyasını bu klasöre koyabilirsin)*
-- 📸 Ekran Görüntüleri: `screenshots/` klasörü içerisinde
-- 💻 Derlenmiş Program: `build/CrackMe.exe`
+</div>
+
+---
+
+## 📁 Proje Hakkında
+
+Bu proje, tersine mühendislik tekniklerini uygulamalı olarak göstermek amacıyla hazırlanmıştır.  
+C dilinde yazılmış özel bir CrackMe uygulaması, doğrudan çözülmeyecek şekilde şifrelenmiş ve çeşitli algoritmalarla obfuscate edilmiştir. Projenin amacı, bu uygulamanın analiz araçları ile adım adım çözülmesidir.
+
+---
+
+## 🚀 Özellikler
+
+- Özel bit manipülasyon ve hash algoritmaları
+- Şifre gizleme teknikleri (XOR, transform, obfuscation)
+- Anti-debug yapılar (zaman geciktirme, bellek karışıklığı)
+- Ghidra ile statik analiz
+- x64dbg ile dinamik çözümleme
+- PDF rapor ve ekran görüntüleriyle belgeleme
+
+---
+
+## 🧑‍💻 Geliştirici
+
+| Öğrenci No | Ad Soyad            | Rol                     |
+|------------|----------------------|--------------------------|
+| 2320191065 | Zeynep Rabia Alkoç   | Kodlama, analiz, rapor  |
+
+---
+
+## 📌 Yol Haritası
+
+- [x] CrackMe uygulamasının geliştirilmesi  
+- [x] Derlenmiş `.exe` dosyasının hazırlanması  
+- [x] Statik analiz (Ghidra)  
+- [x] Dinamik analiz (x64dbg)  
+- [x] Şifre çözümünün belgelenmesi  
+- [x] Final PDF raporunun hazırlanması  
+
+---
+
+## 🛠️ Kurulum
+
+```bash
+git clone https://github.com/zeynepalkoc/crackme-reverse.git
+cd crackme-reverse
+gcc crackme_pro.c -o crackme_pro.exe
