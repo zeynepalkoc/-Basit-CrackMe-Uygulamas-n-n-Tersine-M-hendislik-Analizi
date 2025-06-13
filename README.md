@@ -1,5 +1,5 @@
-# 🧠 Tersine Mühendislik ile Güvenlik Açığı Analizi  
-# 🧠 Vulnerability Analysis via Reverse Engineering
+
+#  Vulnerability Analysis via Reverse Engineering
 
 [![C](https://img.shields.io/badge/C-Language-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))  
 [![Ghidra](https://img.shields.io/badge/Ghidra-Tool-red.svg)](https://ghidra-sre.org/)  
