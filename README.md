@@ -1,4 +1,3 @@
-
 #  Vulnerability Analysis via Reverse Engineering
 
 [![C](https://img.shields.io/badge/C-Language-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))  
@@ -8,8 +7,8 @@
 
 ---
 
-## 📑 İçerik Tablosu  
-## 📑 Table of Contents
+## 📁 İçerik Tablosu  
+## 📁 Table of Contents
 
 1. [Giriş ve Amaç](#1-giriş-ve-amaç) / Introduction and Purpose  
 2. [Özellikler](#2-özellikler) / Features  
