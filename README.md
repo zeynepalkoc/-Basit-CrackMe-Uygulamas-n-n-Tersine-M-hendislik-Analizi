@@ -1,4 +1,3 @@
-
 #  Vulnerability Analysis via Reverse Engineering
 
 [![C](https://img.shields.io/badge/C-Language-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))  
@@ -8,8 +7,8 @@
 
 ---
 
-## 📑 İçerik Tablosu  
-## 📑 Table of Contents
+## 📁 İçerik Tablosu  
+## 📁 Table of Contents
 
 1. [Giriş ve Amaç](#1-giriş-ve-amaç) / Introduction and Purpose  
 2. [Özellikler](#2-özellikler) / Features  
@@ -34,13 +33,14 @@
 ## 2. Özellikler  
 ## 2. Features
 
-- C ile yazılmış CrackMe uygulaması  
-- Gelişmiş şifreleme (XOR, pozisyon, karakter kaydırma)  
-- Ghidra ile statik analiz  
-- x64dbg ile dinamik analiz  
-- Belgeleme ve raporlama (Markdown + PDF)  
-- Lisans doğrulama kontrolü  
-- Manuel veri girişi / Dosyadan veri alma desteği  
+
+### 🔹 Özellikler
+- gdb + gef, radare2 ve Ghidra ile crackme analizleri :contentReference[oaicite:21]{index=21}
+- `gets`, `strcpy`, `printf`, `sprintf`, `scanf` gibi insecure C fonksiyonları üzerinden zafiyet çalışmaları :contentReference[oaicite:22]{index=22}
+- Buffer overflow ve format string analizleri
+- Docker ile hazırlanan VM / CTF box ortamı kullanımı :contentReference[oaicite:23]{index=23}
+- ARM / 32-bit binary’ler için cross-compile ve debug ayarları :contentReference[oaicite:24]{index=24}
+ 
 
 ---
 
